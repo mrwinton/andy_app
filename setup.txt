@@ -1,5 +1,27 @@
+1. Find out your docker container's name
+
+docker ps
+
+2. copy the pictures
+
 docker cp $(pwd)/data/andy-fone [CONTAINER_NAME]:/root/openface/training-images/andy-fone
 
 docker cp $(pwd)/data/adam-brody [CONTAINER_NAME]:/root/openface/training-images/adam-brody
 
 docker cp $(pwd)/data/steve-jobs [CONTAINER_NAME]:/root/openface/training-images/steve-jobs
+
+3. in the container: run the commands
+
+./util/align-dlib.py ./training-images/ align outerEyesAndNose ./aligned-images/ --size 96
+
+./batch-represent/main.lua -outDir ./generated-embeddings/ -data ./aligned-images/
+
+./demos/classifier.py train ./generated-embeddings/
+
+4. TODO get the updated multi face edit from Marc
+
+5. Recognise faces!
+
+<!-- Assuming you are running the script from the root of the rails app -->
+
+docker exec dreamy_jang /root/openface/demos/classifier.py infer /root/openface/generated-embeddings/classifier.pkl $(pwd)/data/test_images/1.JPG
