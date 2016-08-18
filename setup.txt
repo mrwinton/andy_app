@@ -1,0 +1,5 @@
+docker cp $(pwd)/data/andy-fone [CONTAINER_NAME]:/root/openface/training-images/andy-fone
+
+docker cp $(pwd)/data/adam-brody [CONTAINER_NAME]:/root/openface/training-images/adam-brody
+
+docker cp $(pwd)/data/steve-jobs [CONTAINER_NAME]:/root/openface/training-images/steve-jobs

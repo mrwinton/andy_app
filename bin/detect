@@ -1,0 +1,5 @@
+#!/bin/bash
+#
+# TODO need to bring in the arg
+# dreamy_jang = container name
+docker exec dreamy_jang ./demos/classifier.py infer ./generated-embeddings/classifier.pkl $(pwd)/../tmp/your_test_image.jpg
