@@ -60,7 +60,8 @@ class AndyController < ApplicationController
     gc.draw(image)
     image.write resized_path
 
-
+    resized_path.slice!("public/")
+    flash[:image] = resized_path
     redirect_to "/"
   end
 
