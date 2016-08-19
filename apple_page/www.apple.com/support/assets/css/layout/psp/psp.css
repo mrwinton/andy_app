@@ -1,0 +1,1491 @@
+/* ===[ span more link arrow ]=== */
+a.block span.more,
+#carrierlinks a,
+.carrier a,
+.psp li.portlet-results.more-link h3 a,
+.psp.sub_contact span.more {
+    text-align: left;
+    background: url(../../../../home/images/morearrow.png) 100% 50% no-repeat scroll transparent;
+    padding-right: 9px;
+    *display: inline-block;
+}
+
+@media only screen {
+    a.block span.more,
+    #carrierlinks a,
+    .carrier a,
+    .psp li.portlet-results.more-link h3 a,
+    .psp.sub_contact span.more {
+        background-image: url(../../../images/layout/psp/icons/arrow_more.svg);
+    }
+}
+
+/* ===[ new psp ]=== */
+.psp h1 {
+    padding-left: 10px;
+    font-size: 28px;
+}
+.psp h1 a { color: black; }
+.psp h1 a:hover { text-decoration: none; }
+
+/* ===[ wrapper ]=== */
+.psp #content.box {
+    background: #ffffff url(../../../images/layout/psp/icons/bg_box.png);
+    _background: #fff;
+    background-size: 984px 10px;
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);
+    box-shadow: 0 1px 3px rgba(0,0,0,.35);
+    min-height: 400px;
+    border: 1px solid;
+    border-color: #e5e5e5 #dbdbdb #d2d2d2;
+}
+.psp #content.box:nth-child(1n) { border: none; }
+
+/* ===[ sidebar ]=== */
+.psp #sidebar {
+    position: relative;
+    float: left;
+    width: 224px;
+    *width: 225px;
+    margin-left: 0;
+    _margin-left: 1px;
+    margin-right: -3px;
+    z-index: 3;
+    *border: none;
+    padding: 15px 10px 10px;
+    _padding: 15px 7px 10px;
+}
+.psp .nav { margin: 0 -10px; }
+.psp .nav img {
+    margin: -4px 14px 0 -39px;
+    position: absolute;
+    height: 25px;
+    width: 25px;
+}
+.psp .nav li { padding: 4px 10px; }
+.psp .nav li a {
+    display: block;
+    position: relative;
+    /*padding: 6px 18px 6px 49px;*/
+    padding: 6px 0 6px 49px;
+    text-decoration: none;
+    color: #8c8c8c;
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    background-size: 15px 14px;
+}
+.psp .nav li a:hover {
+    color: #0088cc;
+}
+.psp .nav li.selected {
+    background-color: #4CA1FF !important;
+    position: relative;
+}
+.psp .nav li.selected a {
+    color: #fff;
+    cursor: default;
+}
+.psp .nav li.title {
+    color: rgb(148,148,148);
+    font-size: 11px;
+    padding-left: 16px;
+    padding-top: 4px;
+}
+/* ===[ content ]=== */
+.psp #section {
+    float: right;
+    padding: 2em 40px 1em 40px;
+    width: 655px;
+    overflow: hidden;
+}
+.psp #section h2 {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin-bottom: 0.6em;
+    color: #333;
+}
+.psp #section .subsection {
+    padding: 5px 50px 25px 90px;
+    min-height: 60px;
+    _height: 60px;
+}
+.psp #section div.articles-link-group p a.more {
+    line-height:50px;
+}
+.psp #section h2 + div.divider { display: none; }
+.psp #section h2 + div.divider + div.divider { display: none; }
+.psp #section div.divider + div.divider { display: none; }
+.psp #section div.divider {
+    margin-bottom: 18px;
+    border-color: #e8e8e8;
+    margin-top: 18px;
+}
+.psp #section img.right { float: right; }
+.psp #section img.flushright {
+    float: right;
+    margin: 2px -40px 16px 20px;
+}
+.psp p#welcome {
+    color: #888;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    padding-right: 280px;
+}
+/* ===[ iOS device icons ]=== */
+.psp .device {
+    float: right;
+    font-size: 10px;
+    display: block;
+    position: relative;
+    margin-top: -61px;
+    width: 350px;
+}
+.psp .device p {
+    display: block;
+    float: left;
+    width: 225px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    text-align: right;
+}
+.psp .device p.prod1 { width: 285px; }
+.psp .device img.prod1 {
+    float: right;
+    width: 55px;
+}
+.psp .device img.prod2 {
+    float: right;
+    width: 118px;
+}
+.psp .device img.prod3 {
+    float: right;
+    width: 120px;
+}
+#section > .center ~ p {
+    position: absolute;
+    top: 61px;
+    padding-right: 40px;
+}
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;v
+    text-align: center;
+}
+
+img.center{ margin-top: 35px;}
+img.hero--padding {padding-top: 80px; padding-bottom: 80px;}
+
+.psp .padtop15, .psp .padtop5{padding-top: 0px;}
+
+/* ===[ blue button ]=== */
+.psp .btn_cta {
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(55,170,234)), to(rgb(17,126,210))) repeat scroll 0 0 rgb(64,142,219);
+    background: -moz-linear-gradient(rgb(55,170,234), rgb(17,126,210)) repeat scroll 0 0 transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#37AAEA', endColorstr='#117ED2');
+    background-color: #49A5D5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    -webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    -moz-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    height: 22px;
+    width: auto;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #4C88BC;
+    color: #ffffff;
+    line-height: 22px;
+}
+.psp .btn_cta:hover {
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(47,144,213)), to(rgb(3,81,183))) repeat scroll 0 0 transparent;
+    background: -moz-linear-gradient(rgb(47,144,213) 0%, rgb(3,81,183) 100%) repeat scroll 0 0 transparent;
+    background-color: rgb(3,81,183);
+    text-decoration: none;
+}
+.psp .btn_cta span {
+    display: block;
+    padding: 2px 20px 0;
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+}
+.psp .btn_cta.fitted { padding-right: 12px; }
+.psp .btn_cta.fitted span {
+    font-size: 13px;
+    letter-spacing: -0.07em;
+    padding-left: 12px;
+}
+.psp .btn-contact {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(74,166,214)), to(rgb(32,125,170)));
+    background: -moz-linear-gradient(top , rgb(74,166,214), rgb(32,125,170));
+    background-color: rgb(32,125,170);
+    border: medium none;
+    -webkit-border-radius: 11px 11px 11px 11px;
+    -moz-border-radius: 11px 11px 11px 11px;
+    border-radius: 11px 11px 11px 11px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: normal;
+    height: 22px;
+    margin-bottom: 20px;
+    padding: 5px 25px 6px;
+    width: auto;
+}
+/* ===[ resource links ]=== */
+.psp #resourcelinks li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+}
+.psp #resourcelinks li.last { margin-right: 0; }
+.psp #resourcelinks li a {
+    width: 94px;
+    display: block;
+    text-align: center;
+    color: #888888;
+    padding: 52px 1px 10px;
+}
+.psp #resourcelinks li a.downloads {
+    background: url(../../../images/layout/psp/icons/icon_downloads.png) center 10px no-repeat;
+    background-size: 40px 40px;
+}
+.psp #resourcelinks li a.manuals {
+    background: url(../../../images/layout/psp/icons/icon_manuals.png) center 10px no-repeat;
+    background-size: 40px 40px;
+}
+.psp #resourcelinks li a.specs {
+    background: url(../../../images/layout/psp/icons/icon_specs.png) center 10px no-repeat;
+    background-size: 40px 40px;
+}
+.psp #resourcelinks li a.discussions {
+    background: url(../../../images/layout/psp/icons/icon_discussions.png) center 10px no-repeat;
+    background-size: 40px 40px;
+}
+.psp #resourcelinks li a.videos {
+    background: url(../../../images/layout/psp/icons/icon_videos.png) center 10px no-repeat;
+    background-size: 40px 40px;
+}
+.psp #resourcelinks li a.fullwidth {
+    width: auto;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.psp #resourcelinks.right {
+    float: none;
+    padding: 0;
+}
+
+/* ===[ promos ]=== */
+.psp .promoblock {
+    width: 655px;
+    margin: 18px auto;
+    padding-top: 0;
+    zoom: 1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+}
+
+.psp #content .promoblock h3 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4em;
+    margin-bottom: 0.8em !important;
+    color: black;
+}
+.psp li.promo > p { margin-bottom: 0; }
+.psp .promoblock .promo span.more { margin-left: 0; }
+
+/* ===[ welcome page 1 promo ]=== */
+.psp .promoblock .promos_1:after {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.psp .promoblock .promos_1 li.promo {
+    position: relative;
+    float: left;
+    width: 630px;
+    min-height: 5em;
+    _height: 5em;
+    padding: 13px;
+    margin-top: 0;
+    font-size: 11px;
+}
+.psp .promoblock .promos_1 li.promo img {
+    margin: 0 13px 19px 0;
+    float: left;
+}
+.psp .promoblock .promos_1 li.promo table {
+    width: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.psp .promoblock .promos_1 li.promo table tr { width: auto; }
+.psp .promoblock .promos_1 li.promo table tr td { vertical-align: text-top; }
+.psp .promoblock .promos_1 #has_expresslane { border: none; }
+
+/* ===[ welcome page 2 promos ]=== */
+.psp .promoblock .promos_2:after {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.psp .promoblock .promos_2 li.promo {
+    position: relative;
+    float: left;
+    width: 300px;
+    min-height: 11em;
+    _height: 5em;
+    padding: 13px;
+    margin-top: 0;
+    font-size: 11px;
+}
+.psp .promoblock .promos_2 {
+    background:url('../../../images/layout/psp/icons/promoblock_back.gif') top left repeat-y;
+}
+
+.psp .promoblock .promos_2 li.promo img {
+    margin: 0 13px 19px 0;
+    float: left;
+    width: 72px !important;
+    height: 72px !important;
+}
+
+.psp .promoblock .promos_2 li.promo a img {
+    position: absolute;
+    margin: 0;
+    width: 72px !important;
+    height: 72px !important;
+}
+
+.psp .promoblock .promos_2 .promo span.more {
+    margin-left: 80px;
+}
+
+.psp .promoblock .promos_2 .promo p {
+    margin-left: 80px;
+}
+
+.psp .promoblock .promos_2 li.promo table {
+    width: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.psp .promoblock .promos_2 li.promo table tr { width: auto; }
+.psp .promoblock .promos_2 li.promo table tr td { vertical-align: text-top; }
+.psp .promoblock .promos_2 #has_expresslane { border: none; }
+
+.psp .promoblock .promos_2 .promo a a.more {
+    margin-left: 80px;
+}
+
+.psp .promoblock .promos_2 .promo a.block {
+    margin-left: 80px;
+}
+
+.psp #content .promoblock .promos_2 a h3 {
+    margin-left: -80px;
+}
+
+.psp #content .promoblock .promos_2 a img {
+    left: 10px;
+}
+
+.psp #content .promoblock .promos_2 a img + p {
+    margin-left: 0;
+}
+
+.psp #content .promoblock .promos_2 a p {
+    margin-left: -80px;
+}
+
+.psp .promoblock .promos_2 .promo a img + p + span.more {
+    margin-left: 0 ;
+}
+
+.psp .promoblock .promos_2 .promo a span.more {
+    margin-left: -80px;
+}
+
+/* ===[ welcome page 3 promos ]=== */
+.psp .promoblock .promos_3:after {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.psp .promoblock .promos_3 li.promo {
+    position: relative;
+    float: left;
+    width: 190px;
+    min-height: 5em;
+    _height: 5em;
+    padding: 13px;
+    margin-top: 0;
+    font-size: 11px;
+}
+.psp .promoblock .promos_3 {
+    background:url('../../../images/layout/psp/icons/promoblock_back3.gif') top left repeat-y;
+}
+
+
+.psp .promoblock .promos_3 li.promo img { display: none; }
+.psp .promoblock .promos_3 li.promo table {
+    width: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.psp .promoblock .promos_3 li.promo table tr { width: auto; }
+.psp .promoblock .promos_3 li.promo table tr td { vertical-align: text-top; }
+
+/* ===[ kb results ]=== */
+.psp a h3 {
+    color: #08c;
+}
+.psp a:hover h3 {
+    text-decoration: underline;
+}
+.psp .promo a:hover h3 {
+    text-decoration: none;
+}
+
+.psp .portlet-spinner { margin: 10px 0 0 15px; }
+.psp .portlet-results {
+    font-size: 90%;
+    padding: 12px 15px 12px 70px;
+    border-bottom: 1px solid #e8e8e8;
+    min-height: 34px;
+}
+.psp .portlet-results.last { border-bottom: none; }
+.psp .portlet-results div.excerpt { min-height: 17px; }
+.psp .portlet-results.more-link {
+    border-bottom: none;
+    padding: 15px 15px 0 0;
+}
+.psp .portlet-results.more-link h3 { font-weight: normal; }
+.psp .portlet-results.more-link div.excerpt { display: none; }
+.psp .portlet-results > a:hover { text-decoration: none; }
+.psp .portlet-results > a div.excerpt,
+.psp li.portlet-results > a.block > div.excerpt,
+.psp li.portlet-results > a.block > h3 { color: #000; }
+.psp .portlet-results > a:hover h3 { text-decoration: underline; }
+.psp .portlet-results > a.block > h3 {
+    text-decoration: none !important;
+    margin-top: 0;
+}
+
+/* ===[ doctype icons ]=== */
+.psp .articles-link-group li,
+.psp li.portlet-results {
+    background-size: 40px 40px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+.dt-accessibility {
+	background-image: url(../../../images/layout/psp/icons/dt_accessibility.png);
+}
+.dt-airport {
+	background-image: url(../../../images/layout/psp/icons/dt_airport.png);
+}
+.dt-aperture {
+	background-image: url(../../../images/layout/psp/icons/dt_aperture.png);
+}
+.dt-appleid {
+	background-image: url(../../../images/layout/psp/icons/dt_appleid.png);
+}
+.dt-appletv {
+	background-image: url(../../../images/layout/psp/icons/dt_appletv.png);
+}
+.dt-apps {
+	background-image: url(../../../images/layout/psp/icons/dt_apps.png);
+}
+.dt-assistant {
+	background-image: url(../../../images/layout/psp/icons/dt_assistant.png);
+}
+.dt-auth {
+    background-image: url(../../../images/layout/psp/icons/dt_authorize.png);
+    background-size: 25px 25px;
+}
+.dt-bluetooth {
+	background-image: url(../../../images/layout/psp/icons/dt_bluetooth.png);
+}
+.dt-bootcamp {
+	background-image: url(../../../images/layout/psp/icons/dt_bootcamp.png);
+}
+.dt-check {
+	background-image: url(../../../images/layout/psp/icons/dt_check.png);
+}
+.dt-communities {
+	background-image: url(../../../images/layout/psp/icons/dt_discussions.png);
+}
+.dt-contact {
+	background-image: url(../../../images/layout/psp/icons/dt_contact.png);
+}
+.dt-discussions {
+	background-image: url(../../../images/layout/psp/icons/dt_discussions.png);
+}
+.dt-display {
+	background-image: url(../../../images/layout/psp/icons/dt_display.png);
+}
+.dt-document {
+	background-image: url(../../../images/layout/psp/icons/dt_document.png);
+}
+.dt-downloads {
+	background-image: url(../../../images/layout/psp/icons/dt_downloads.png);
+}
+.dt-email {
+	background-image: url(../../../images/layout/psp/icons/dt_email.png);
+}
+.dt-expresslane {
+	background-image: url(../../../images/layout/psp/icons/dt_expresslane.png);
+}
+.dt-expresslane3 {
+	background-image: url(../../../images/layout/psp/icons/dt_apple-support.png);
+}
+.dt-facetime {
+	background-image: url(../../../images/layout/psp/icons/dt_facetime.png);
+}
+.dt-family-sharing {
+	background-image: url(../../../images/layout/psp/icons/dt_family_sharing.png);
+}
+.dt-facetimemac {
+	background-image: url(../../../images/layout/psp/icons/dt_facetimemac.png);
+}
+.dt-find-my-iphone {
+	background-image: url(../../../images/layout/psp/icons/dt_find_my_iphone.png);
+}
+.dt-help-articles {
+	background-image: url(../../../images/layout/psp/icons/dt_support.png);
+}
+.dt-homesharing {
+	background-image: url(../../../images/layout/psp/icons/dt_homesharing.png);
+}
+.dt-howto-articles {
+	background-image: url(../../../images/layout/psp/icons/dt_support.png);
+}
+.dt-ibooks {
+	background-image: url(../../../images/layout/psp/icons/dt_ibooks.png);
+}
+.dt-icloud {
+	background-image: url(../../../images/layout/psp/icons/dt_icloud.png);
+}
+.dt-ilife {
+	background-image: url(../../../images/layout/psp/icons/dt_ilife.png);
+}
+.dt-ios-switch {
+    background-image: url(https://www.apple.com/support/assets/images/layout/psp/icons/dt_ios_switch.png);
+}
+.dt-ios-tips{
+    background-image: url(../../../images/layout/psp/icons/dt_tips.png);
+}
+.dt-ipad {
+	background-image: url(../../../images/layout/psp/icons/dt_ipad.png);
+}
+.dt-ipadair2 {
+	background-image: url(../../../images/layout/psp/icons/dt_ipadair2.png);
+}
+.dt-iphone {
+	background-image: url(../../../images/layout/psp/icons/dt_iphone.png);
+}
+.dt-iphone6 {
+	background-image: url(../../../images/layout/psp/icons/dt_iphone6.png);
+}
+.dt-iphoto {
+	background-image: url(../../../images/layout/psp/icons/dt_iphoto.png);
+}
+.dt-ipod {
+	background-image: url(../../../images/layout/psp/icons/dt_ipod.png);
+}
+.dt-ipodtouch {
+	background-image: url(../../../images/layout/psp/icons/dt_ipodtouch.png);
+}
+.dt-itunes {
+	background-image: url(../../../images/layout/psp/icons/dt_itunes.png);
+}
+.dt-itunes-giftcard {
+	background-image: url(../../../images/layout/psp/icons/dt_itunes_giftcard.png);
+}
+.dt-itunes-in-the-cloud {
+	background-image: url(../../../images/layout/psp/icons/dt_itunes_in_the_cloud.png);
+}
+.dt-itunes-u {
+	background-image: url(../../../images/layout/psp/icons/dt_itunes-u.png);
+}
+.dt-iwork {
+	background-image: url(../../../images/layout/psp/icons/dt_iwork.png);
+}
+.dt-keyboard {
+	background-image: url(../../../images/layout/psp/icons/dt_keyboard_mouse.png);
+}
+.dt-link {
+	background-image: url(../../../images/layout/psp/icons/dt_link.png);
+}
+.dt-macappstore {
+	background-image: url(../../../images/layout/psp/icons/dt_macappstore.png);
+}
+.dt-mail {
+	background-image: url(../../../images/layout/psp/icons/dt_mail.png);
+}
+.dt-manuals {
+	background-image: url(../../../images/layout/psp/icons/dt_manuals.png);
+}
+.dt-photos-mac {
+	background-image: url(../../../images/layout/psp/icons/dt_photos_osx.png);
+}
+.dt-podcasts {
+	background-image: url(../../../images/layout/psp/icons/dt_podcasts.png);
+}
+.dt-podcast-link {
+	background-image: url(../../../images/layout/psp/icons/dt_podcastgrey.png);
+}
+.dt-quicktime {
+	background-image: url(../../../images/layout/psp/icons/dt_quicktime.png);
+}
+.dt-rap {
+	background-image: url(../../../images/layout/psp/icons/dt_reportproblem.png);
+}
+.dt-retail {
+	background-image: url(../../../images/layout/psp/icons/dt_retail.png);
+}
+.dt-safari {
+	background-image: url(../../../images/layout/psp/icons/dt_safari.png);
+}
+.dt-specifications {
+	background-image: url(../../../images/layout/psp/icons/dt_specs.png);
+}
+.dt-store {
+	background-image: url(../../../images/layout/psp/icons/dt_store.png);
+}
+.dt-apple-store {
+    background-image: url(../../../images/layout/psp/icons/dt_apple-store.png);
+}
+.dt-system-status {
+	background-image: url(../../../images/layout/psp/icons/dt_system_status.png);
+}
+.dt-timemachine {
+	background-image: url(../../../images/layout/psp/icons/dt_timemachine.png);
+}
+.dt-troubleshooting-articles {
+	background-image: url(../../../images/layout/psp/icons/dt_support.png);
+}
+.dt-videos {
+	background-image: url(../../../images/layout/psp/icons/dt_videos.png);
+}
+.dt-iwork-for-icloud {
+    background-image: url(../../../images/layout/psp/icons/dt_iwork_for_icloud.png);
+}
+.dt-basics {
+    background-image: url(../../../images/layout/psp/icons/dt_basics.png);
+}
+
+@media only screen {
+	.dt-accessibility {
+		background-image: url(../../../images/layout/psp/icons/dt_accessibility_2x.png);
+	}
+	.dt-airport {
+		background-image: url(../../../images/layout/psp/icons/dt_airport_2x.png);
+	}
+	.dt-aperture {
+		background-image: url(../../../images/layout/psp/icons/dt_aperture_2x.png);
+	}
+	.dt-appleid {
+		background-image: url(../../../images/layout/psp/icons/dt_appleid_2x.png);
+	}
+	.dt-appletv {
+		background-image: url(../../../images/layout/psp/icons/dt_appletv_2x.png);
+	}
+	.dt-apps {
+		background-image: url(../../../images/layout/psp/icons/dt_apps_2x.png);
+	}
+	.dt-assistant {
+		background-image: url(../../../images/layout/psp/icons/dt_assistant_2x.png);
+	}
+	.dt-bluetooth {
+		background-image: url(../../../images/layout/psp/icons/dt_bluetooth_2x.png);
+	}
+	.dt-bootcamp {
+		background-image: url(../../../images/layout/psp/icons/dt_bootcamp_2x.png);
+	}
+	.dt-check {
+		background-image: url(../../../images/layout/psp/icons/dt_check_2x.png);
+	}
+	.dt-communities {
+		background-image: url(../../../images/layout/psp/icons/dt_discussions_2x.png);
+	}
+	.dt-contact {
+		background-image: url(../../../images/layout/psp/icons/dt_contact_2x.png);
+	}
+	.dt-discussions {
+		background-image: url(../../../images/layout/psp/icons/dt_discussions_2x.png);
+	}
+	.dt-display {
+		background-image: url(../../../images/layout/psp/icons/dt_display_2x.png);
+	}
+	.dt-document {
+		background-image: url(../../../images/layout/psp/icons/dt_document_2x.png);
+	}
+	.dt-downloads {
+		background-image: url(../../../images/layout/psp/icons/dt_downloads_2x.png);
+	}
+	.dt-email {
+		background-image: url(../../../images/layout/psp/icons/dt_email_2x.png);
+	}
+	.dt-expresslane {
+		background-image: url(../../../images/layout/psp/icons/dt_expresslane_2x.png);
+	}
+	.dt-expresslane3 {
+		background-image: url(../../../images/layout/psp/icons/dt_apple-support_2x.png);
+	}
+	.dt-facetime {
+		background-image: url(../../../images/layout/psp/icons/dt_facetime_2x.png);
+	}
+	.dt-facetimemac {
+		background-image: url(../../../images/layout/psp/icons/dt_facetimemac_2x.png);
+	}
+	.dt-find-my-iphone {
+		background-image: url(../../../images/layout/psp/icons/dt_find_my_iphone_2x.png);
+	}
+	.dt-help-articles {
+		background-image: url(../../../images/layout/psp/icons/dt_support_2x.png);
+	}
+	.dt-homesharing {
+		background-image: url(../../../images/layout/psp/icons/dt_homesharing_2x.png);
+	}
+	.dt-howto-articles {
+		background-image: url(../../../images/layout/psp/icons/dt_support_2x.png);
+	}
+	.dt-ibooks {
+		background-image: url(../../../images/layout/psp/icons/dt_ibooks_2x.png);
+	}
+	.dt-icloud {
+		background-image: url(../../../images/layout/psp/icons/dt_icloud_2x.png);
+	}
+	.dt-ilife {
+		background-image: url(../../../images/layout/psp/icons/dt_ilife_2x.png);
+	}
+	.dt-ios-switch {
+    background-image: url(https://www.apple.com/support/assets/images/layout/psp/icons/dt_ios_switch_2x.png);
+	}
+    .dt-ios-tips{
+    background-image: url(../../../images/layout/psp/icons/dt_tips_2x.png);
+    }
+	.dt-ipad {
+		background-image: url(../../../images/layout/psp/icons/dt_ipad_2x.png);
+	}
+	.dt-ipadair2 {
+		background-image: url(../../../images/layout/psp/icons/dt_ipadair2_2x.png);
+	}
+	.dt-iphone {
+		background-image: url(../../../images/layout/psp/icons/dt_iphone_2x.png);
+	}
+	.dt-iphone6 {
+		background-image: url(../../../images/layout/psp/icons/dt_iphone6_2x.png);
+	}
+	.dt-iphoto {
+		background-image: url(../../../images/layout/psp/icons/dt_iphoto_2x.png);
+	}
+	.dt-ipod {
+		background-image: url(../../../images/layout/psp/icons/dt_ipod_2x.png);
+	}
+	.dt-ipodtouch {
+		background-image: url(../../../images/layout/psp/icons/dt_ipodtouch_2x.png);
+	}
+	.dt-itunes {
+		background-image: url(../../../images/layout/psp/icons/dt_itunes_2x.png);
+	}
+	.dt-itunes-in-the-cloud {
+		background-image: url(../../../images/layout/psp/icons/dt_itunes_in_the_cloud_2x.png);
+	}
+	.dt-itunes-u {
+		background-image: url(../../../images/layout/psp/icons/dt_itunes-u_2x.png);
+	}
+	.dt-iwork {
+		background-image: url(../../../images/layout/psp/icons/dt_iwork_2x.png);
+	}
+	.dt-keyboard {
+		background-image: url(../../../images/layout/psp/icons/dt_keyboard_mouse_2x.png);
+	}
+	.dt-link {
+		background-image: url(../../../images/layout/psp/icons/dt_link_2x.png);
+	}
+	.dt-macappstore {
+		background-image: url(../../../images/layout/psp/icons/dt_macappstore_2x.png);
+	}
+	.dt-mail {
+		background-image: url(../../../images/layout/psp/icons/dt_mail_2x.png);
+	}
+	.dt-manuals {
+		background-image: url(../../../images/layout/psp/icons/dt_manuals_2x.png);
+	}
+	.dt-podcasts {
+		background-image: url(../../../images/layout/psp/icons/dt_podcasts_2x.png);
+	}
+	.dt-photos-mac {
+		background-image: url(../../../images/layout/psp/icons/dt_photos_osx_2x.png);
+	}
+	.dt-podcast-link {
+		background-image: url(../../../images/layout/psp/icons/dt_podcastgrey_2x.png);
+	}
+	.dt-quicktime {
+		background-image: url(../../../images/layout/psp/icons/dt_quicktime_2x.png);
+	}
+	.dt-rap {
+		background-image: url(../../../images/layout/psp/icons/dt_reportproblem_2x.png);
+	}
+	.dt-retail {
+		background-image: url(../../../images/layout/psp/icons/dt_retail_2x.png);
+	}
+	.dt-safari {
+		background-image: url(../../../images/layout/psp/icons/dt_safari_2x.png);
+	}
+	.dt-specifications {
+		background-image: url(../../../images/layout/psp/icons/dt_specs_2x.png);
+	}
+	.dt-store {
+		background-image: url(../../../images/layout/psp/icons/dt_store_2x.png);
+	}
+    .dt-apple-store {
+        background-image: url(../../../images/layout/psp/icons/dt_apple-store_2x.png);
+    }
+	.dt-system-status {
+		background-image: url(../../../images/layout/psp/icons/dt_system_status_2x.png);
+	}
+	.dt-timemachine {
+		background-image: url(../../../images/layout/psp/icons/dt_timemachine_2x.png);
+	}
+	.dt-troubleshooting-articles {
+		background-image: url(../../../images/layout/psp/icons/dt_support_2x.png);
+	}
+	.dt-videos {
+		background-image: url(../../../images/layout/psp/icons/dt_videos_2x.png);
+	}
+    .dt-iwork-for-icloud {
+        background-image: url(../../../images/layout/psp/icons/dt_iwork_for_icloud_2x.png);
+    }
+    .dt-basics {
+        background-image: url(../../../images/layout/psp/icons/dt_basics_2x.png);
+    }
+}
+
+/* ===[ carrier list ]=== */
+.psp .promo ul.carrier { margin-left: 0; }
+.psp .promo ul.carrier li,
+.psp .promo ul#carrierlinks li {
+    float: left;
+    list-style: none;
+    line-height: 0.9em;
+    margin-left: 0;
+    margin-right: 70px;
+}
+.psp .carrier {
+    list-style: square;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+.psp .carrier li {
+    line-height: 1.3em;
+    margin-left: 1.5em;
+    padding: 4px 0;
+}
+/* ===[ carrier drop down ]=== */
+.psp form#carrier-selector { margin-bottom: 15px; }
+.psp form#carrier-selector { margin-top: 8px; }
+.psp .promoblock li.promo form#carrier-selector { margin-bottom: 0; }
+.psp .promoblock li.promo #carrier-country-menu { margin: 8px 0; }
+
+/* ===[ stacked link group spacing fixes ]=== */
+.psp #content .promoblock h3 { margin-top: 0; }
+.psp #content h3 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-bottom: 0.6em;
+}
+.psp #section h3 { margin-top: 18px; }
+.psp #section { margin-bottom: 18px; }
+.psp #section.ac-psp-subpage,
+.psp .psp .promoblock,
+.psp .articles-link-group > p { margin-bottom: 0; }
+.psp .articles-link-group + p { margin-top: 18px; }
+.psp #main .portlet-results h3 {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.psp p + .articles-link-group { margin-top: -18px; }
+
+/* ===[ contact page ]=== */
+.psp.sub_contact #contact-intro {
+    background: url(../../../images/layout/psp/icons/pspcontact_hero.png) no-repeat 100% 10px;
+    background-size: 250px 250px;
+    min-height: 170px;
+    padding: 0 190px 0 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #888888;
+    border-bottom: 1px solid #ddd;
+    max-height: 260px;
+}
+.psp.sub_contact div.ap-button.small.primary a {
+    background: -moz-linear-gradient(rgb(55,170,234), rgb(17,126,210)) repeat scroll 0 0 transparent;
+    margin: 8px 0 85px 0;
+    background-color: #49A5D5;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#37AAEA', endColorstr='#117ED2');
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(55,170,234)), to(rgb(17,126,210))) repeat scroll 0 0 rgb(64,142,219);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px 10px 11px;
+    width: auto;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #4C88BC;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    *display: inline;
+    *overflow: visible;
+    *zoom: 1;
+}
+.psp.sub_contact div.ap-button.small.primary a:hover {
+    background: -moz-linear-gradient(rgb(47,144,213) 0%, rgb(3,81,183) 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(47,144,213)), to(rgb(3,81,183))) repeat scroll 0 0 transparent;
+}
+.psp.sub_contact div.ap-button.small.primary a:hover { text-decoration: none !important; }
+.psp.sub_contact div.ap-button.small.primary span {
+    display: block;
+    padding: 0 20px 0 20px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+/* ===[ contact page: promo section ]=== */
+.psp.sub_contact li.promo.img {
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #DDDDDD;
+}
+.psp.sub_contact li.promo.img img.threetwo {
+    float: left;
+    width: 32px !important;
+    height: 40px !important;
+}
+.psp.sub_contact li.promo.img img {
+    float: left;
+    width: auto;
+}
+.psp.sub_contact li.promo.img,
+li.promo.img a {
+    font-size: 12px;
+    line-height: 18px;
+}
+.psp.sub_contact li.promo.img p,
+li.promo p { color: black; }
+.psp.sub_contact li.promo.img h2 {
+    font-size: 16px !important;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+.psp.sub_contact li.promo.img h2,
+.psp.sub_contact li.promo.img ul,
+.psp.sub_contact li.promo.img p { margin-left: 70px; }
+.psp.sub_contact li.promo.img .link-list {
+    list-style: none;
+    height: 50px;
+}
+.psp.sub_contact li.promo.img .link-list li {
+    display: inline;
+    margin-right: 160px;
+}
+.psp.sub_contact li.promo.img a p span.more { color: #08c !important; }
+.psp.sub_contact li.promo.img div.link-exception ul li { font-size: 12px; }
+.psp.sub_contact li.promo.img:last-child { border-bottom: none !important; }
+.psp.sub_contact li.promo.img div.articles-link-group { margin-bottom: 0 !important; }
+
+/* ===[ comp support section ]=== */
+#container #section > .ac-comp-support > .ap-pullout {
+    margin: 10px 0 15px 0;
+    padding: 20px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f8f8');
+    background: -moz-linear-gradient(rgb(255,255,255) 0%, rgb(246,248,248) 100%)repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(255,255,255)), to(rgb(246,248,248))) repeat scroll 0 0 transparent;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 1px 1px 3px #ddd;
+    -moz-box-shadow: 1px 1px 3px #ddd;
+    box-shadow: 1px 1px 3px #ddd;
+}
+.psp.sub_contact .ac-comp-support h2 {
+    font-size: 14px !important;
+    font-weight: normal !important;
+    line-height:19px !important;
+    margin-bottom: 8px !important;
+}
+.psp.sub_contact .ac-comp-support p {
+    position: relative;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+}
+.psp.sub_contact .ac-comp-support span { font-size: 11px; }
+
+/* ===[ promo block ]=== */
+.psp.sub_contact .ac-psp-subpage .promoblock .promos_1 li.promo {
+    padding: 13px;
+    width: auto;
+}
+.psp.sub_contact #promoblock2 { margin-bottom: 20px; }
+.psp.sub_contact #promoblock2 li { border: none !important; }
+.psp.sub_contact li.promo div h3 {
+    font-size: 14px !important;
+    line-height: 19px !important;
+}
+.psp.sub_contact .link-exception > .ac-comp-sosumi { padding-top: 20px; }
+
+/* ===[ contact page: support section ]=== */
+.psp.sub_contact li.promo.img form#carrier-selector {
+    margin-left: 70px;
+    margin-bottom: 0;
+}
+.psp.sub_contact li.promo.img select#carrier-country-menu {
+    margin-left: 70px;
+    margin-bottom: 0;
+}
+.psp.sub_contact li.promo.img ul.carrier {
+    list-style: none;
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 0;
+}
+.psp.sub_contact li.promo.img ul#carrierlinks { padding-top: 10px; overflow:hidden; }
+.psp.sub_contact li.promo.img select#carrier-country-menu { margin-top: 8px; }
+.psp.sub_contact li.promo.img .carrier a { line-height: 10px; }
+.ac-comp-sosumi,
+.ac-comp-sosumi a { font-size: 11px !important; }
+.promoblock ~ .ac-comp-sosumi {
+    margin-bottom: 40px;
+    padding-left: 13px;
+}
+.psp.sub_contact li.promo.img .ac-comp-sosumi p { color: #76797C !important; }
+#rightsidebar .module > ul:last-child {
+    list-style: square outside none;
+    padding: 10px 10px 10px 28px;
+}
+
+/* ===[ Contact us: p span a ]=== */
+.psp.sub_contact li.promo.img>.link-exception p,
+.psp.sub_contact li.promo.img > a p,
+a.block p { margin-bottom: 0; }
+.psp.sub_contact li#contact-intro p {
+    color: #888;
+    width: 390px;
+}
+.link-exception>a,
+a.block>span.more { margin-left: 70px; }
+span.image + p + span.more,
+span.image + p + a.more { margin-left: 30px; }
+
+/* ===[ old psp ]=== */
+.oldpsp .column.first { width: 780px; }
+.oldpsp .column.last { width: 184px; }
+.oldpsp #resourcespsp .grid1col {
+    width: 100%;
+    clear: both;
+}
+.oldpsp #resourcespsp .grid1col .column {
+    width: 100%;
+    float: none;
+    padding-right: 0;
+}
+.oldpsp #resourcespsp .grid1col .column .grid2col .column.first {
+    width: 47%;
+    float: left;
+}
+.oldpsp #resourcespsp .grid1col .column .grid2col .column.last {
+    width: 46%;
+    float: left;
+}
+.oldpsp #resourcespsp .grid2col { clear: both; }
+.oldpsp #resourcespsp .grid2col .column.first { width: 47%; }
+.oldpsp #resourcespsp .grid2col .column.last { width: 46%; }
+.oldpsp #resourcespsp h3 { color: #333; }
+.oldpsp #resourcespsp ul.square {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.oldpsp #resourcespsp ul.portlet { padding-bottom: 10px; }
+.oldpsp .grid2colx:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.oldpsp div.articles-link-group { margin-bottom: 18px; }
+.oldpsp div.articles-link-group p a.arrowlink {
+    margin-top: 10px;
+    display: inline-block;
+}
+.oldpsp li.manual {
+    padding: 4px 0 0 0;
+    display: inline-block;
+    background-position: 0 1px;
+}
+.oldpsp li.manual a { margin-left: 18px; }
+.oldpsp li.video { display: inline-block; }
+.oldpsp #featured div.module div.br { overflow: hidden; }
+
+/* ===[ hero box ]=== */
+.oldpsp #featured img.left {
+    margin: 5px 0 0 20px;
+    position: absolute;
+    float: none;
+}
+.oldpsp #featured div.articles-link-group {
+    margin: 5px 0 25px 0;
+    padding: 20px 0 0 240px;
+    min-height: 160px;
+    overflow: hidden;
+    clear: both;
+}
+.oldpsp #featured li { padding-top: 8px; }
+.oldpsp #featured li:first-child { padding-top: 0; }
+.oldpsp #featured li.padtop10 { padding-top: 8px; }
+.oldpsp #featured li.padtop10:first-child { padding-top: 0; }
+.oldpsp #featured #resourcelinks li:first-child { padding-top: 8px; }
+.oldpsp #featured #resourcelinks { padding: 0; }
+
+/* ===[ Undo old-style module ]=== */
+.oldpsp .module {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid;
+    border-color: #e5e5e5 #dbdbdb #d2d2d2;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.35);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.35);
+    box-shadow: 0 1px 3px rgba(0,0,0,.35);
+    zoom: 1;
+}
+.oldpsp .module:nth-child(1n) { border: none; }
+.oldpsp .tl,
+.oldpsp .tr,
+.oldpsp .bl,
+.oldpsp .br {
+    background: none;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+}
+/* ===[ Downloads module ]=== */
+.oldpsp .module #downloads_module.module {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+/* ===[ Right sidebar titles ]=== */
+.oldpsp #rightsidebar .module h2 {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9aa3b5', endColorstr='#72829d');
+    background: -moz-linear-gradient(top, rgb(154,163,181)  50%, rgb(114,130,157)  100%);
+    background: -webkit-gradient(linear, 0% 50%, 0% 100%, from(rgb(154,163,181)), to(rgb(114,130,157)));
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    top: 0;
+    left: 0;
+}
+/* ===[ video channel module ]=== */
+.oldpsp .video_portlet_lt ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    clear: both;
+}
+.oldpsp .video_portlet_lt li {
+    width: auto;
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-weight: normal;
+    overflow: auto;
+    clear: both;
+}
+.oldpsp .video_portlet_lt li span {
+    width: 80px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    border: 4px solid #999;
+}
+.oldpsp .video_portlet_lt li span img {
+    width: 80px;
+    height: 60px;
+    vertical-align: baseline;
+    border: 0;
+    cursor: pointer;
+    display: block;
+}
+.oldpsp .video_portlet_lt div.pad20 { padding: 0 0 0 4px; }
+.oldpsp .video_portlet_rt ul {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 0 -20px;
+    overflow: auto;
+    clear: both;
+}
+.oldpsp .video_portlet_rt li {
+    width: auto;
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-weight: normal;
+    overflow: auto;
+    clear: both;
+}
+.oldpsp .video_portlet_rt li span {
+    width: 80px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    border: 4px solid #999;
+}
+.oldpsp .video_portlet_rt li span img {
+    width: 80px;
+    height: 60px;
+    vertical-align: baseline;
+    border: 0;
+    cursor: pointer;
+    display: block;
+}
+.oldpsp .video_portlet_rt div.pad20 { padding: 0 0 0 4px; }
+
+ul.video li {
+    line-height: 1.3em;
+    padding: 4px 0;
+    padding-left: 18px;
+    background: url(../../../../_images/icon_video_sm.gif) no-repeat 0 5px;
+}
+ul.manual li {
+    line-height: 1.3em;
+    padding: 4px 0;
+    padding-left: 18px;
+    background: url(../../../../_images/icon_manual_sm.png) no-repeat 0 5px;
+}
+li.manual {
+    display: inline;
+    line-height: 1.3em;
+    padding: 4px 0;
+    padding-left: 18px;
+    background: url(../../../../_images/icon_manual_sm.png) no-repeat 0 5px;
+}
+li.video {
+    display: inline;
+    line-height: 1.3em;
+    padding: 4px 0;
+    padding-left: 18px;
+    background: url(../../../../_images/icon_video_sm.gif) no-repeat 0 5px;
+}
+#sidebar {
+    width: 228px;
+    float: left;
+}
+.arrowlink {
+    text-align: left;
+    padding: 2px 16px 2px 0;
+    background: url(../../../../_images/arrow_jump.gif) no-repeat center right;
+}
+.arrowlinklast {
+    text-align: left;
+    padding: 2px 16px 2px 0;
+    background: url(../../../../_images/arrow_jump.gif) no-repeat center right;
+}
+
+/* ===[ Video Channel module on PSPs ]=== */
+.video_portlet_lt ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    clear: both;
+}
+.video_portlet_lt li {
+    width: auto;
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-weight: normal;
+    overflow: auto;
+    clear: both;
+}
+.video_portlet_lt li span {
+    width: 80px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    border: 4px solid #999;
+}
+.video_portlet_lt li span img {
+    width: 80px;
+    height: 60px;
+    vertical-align: baseline;
+    border: 0;
+    cursor: pointer;
+}
+.video_portlet_rt ul {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 0 -20px;
+    overflow: auto;
+    clear: both;
+}
+.video_portlet_rt li {
+    width: auto;
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-weight: normal;
+    overflow: auto;
+    clear: both;
+}
+.video_portlet_rt li span {
+    width: 80px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    border: 4px solid #999;
+}
+.video_portlet_rt li span img {
+    width: 80px;
+    height: 60px;
+    vertical-align: baseline;
+    border: 0;
+    cursor: pointer;
+}
+
+/* ===[ right sidebar  ]=== */
+#rightsidebar img { padding: 8px 0; }
+#rightsidebar ul { padding-bottom: 5px; }
+#rightsidebar .module h2 {
+    position: relative;
+    top: -1px;
+    left: -1px;
+    padding: 3px 7px;
+    color: white;
+    font-size: 11px;
+    font-weight: normal;
+    background-color: #aaa;
+    background: url(../../../../_images/module_headerbg.png) no-repeat center top;
+}
+#rightsidebar .lefticon {
+    float: left;
+    padding: 0;
+    margin: 5px 10px 5px 0;
+}
+#rightsidebar .desc { padding-bottom: 10px; }
+
+/* ===[ featured section old psp  ]=== */
+#featured h1 { margin-bottom: 5px; }
+#featured li { margin-bottom: 4px; }
+
+/* ===[ resources group  ]=== */
+#featured #resourcelinks { padding: 0; } /* ===[ new featured area with borders  ]=== */
+#resourcelinks { padding: 15px 0; } /* ===[ old featured area without borders  ]=== */
+#resourcelinks li {
+    float: left;
+    margin-right: 10px;
+    padding-right: 15px;
+    font-size: 95%;
+}
+
+/* locale-specific styles */
+/* TH */
+html[lang="th-TH"] body #container.psp h1, html[lang="th-TH"] body #container.oldpsp h1 { font-family:'sukhumvit_setmedium'; font-weight:normal; }
+html[lang="th-TH"] body #container.psp h2 { font-family:'sukhumvit_setmedium'; font-weight:normal; }
+html[lang="th-TH"] body #container.psp #main .portlet-results h3 { font-family:'sukhumvit_setbold'; font-weight:normal; }
+
+/* more links */
+html[lang="bg-BG"] body a.more[href="#"],
+html[lang="hr-HR"] body a.more[href="#"],
+html[lang="cs-CZ"] body a.more[href="#"],
+html[lang="et-EE"] body a.more[href="#"],
+html[lang="el-GR"] body a.more[href="#"],
+html[lang="hu-HU"] body a.more[href="#"],
+html[lang="id-ID"] body a.more[href="#"],
+html[lang="lv-LV"] body a.more[href="#"],
+html[lang="lt-LT"] body a.more[href="#"],
+html[lang="ro-RO"] body a.more[href="#"],
+html[lang="sk-SK"] body a.more[href="#"],
+html[lang="sl-SI"] body a.more[href="#"],
+html[lang="th-TH"] body a.more[href="#"],
+html[lang="tr-TR"] body a.more[href="#"],
+html[lang="bg-BG"] body a.arrowlink[href="#"],
+html[lang="hr-HR"] body a.arrowlink[href="#"],
+html[lang="cs-CZ"] body a.arrowlink[href="#"],
+html[lang="et-EE"] body a.arrowlink[href="#"],
+html[lang="el-GR"] body a.arrowlink[href="#"],
+html[lang="hu-HU"] body a.arrowlink[href="#"],
+html[lang="id-ID"] body a.arrowlink[href="#"],
+html[lang="lv-LV"] body a.arrowlink[href="#"],
+html[lang="lt-LT"] body a.arrowlink[href="#"],
+html[lang="ro-RO"] body a.arrowlink[href="#"],
+html[lang="sk-SK"] body a.arrowlink[href="#"],
+html[lang="sl-SI"] body a.arrowlink[href="#"],
+html[lang="th-TH"] body a.arrowlink[href="#"],
+html[lang="tr-TR"] body a.arrowlink[href="#"] { display:none; }
+
+/* Hero image */
+html[lang="en-AP"] body .psp.sub_contact #contact-intro,
+html[lang="en-BN"] body .psp.sub_contact #contact-intro,
+html[lang="zh-CN"] body .psp.sub_contact #contact-intro,
+html[lang="en-GU"] body .psp.sub_contact #contact-intro,
+html[lang="zh-HK"] body .psp.sub_contact #contact-intro,
+html[lang="en-HK"] body .psp.sub_contact #contact-intro,
+html[lang="id-ID"] body .psp.sub_contact #contact-intro,
+html[lang="ja-JP"] body .psp.sub_contact #contact-intro,
+html[lang="ko-KR"] body .psp.sub_contact #contact-intro,
+html[lang="zh-MO"] body .psp.sub_contact #contact-intro,
+html[lang="en-MO"] body .psp.sub_contact #contact-intro,
+html[lang="en-MY"] body .psp.sub_contact #contact-intro,
+html[lang="en-MN"] body .psp.sub_contact #contact-intro,
+html[lang="en-PH"] body .psp.sub_contact #contact-intro,
+html[lang="en-SG"] body .psp.sub_contact #contact-intro,
+html[lang="en-LK"] body .psp.sub_contact #contact-intro,
+html[lang="zh-TW"] body .psp.sub_contact #contact-intro,
+html[lang="th-TH"] body .psp.sub_contact #contact-intro,
+html[lang="en-VN"] body .psp.sub_contact #contact-intro,
+#contact-intro.promo.img-ap {
+	background: url(../../../images/layout/psp/icons/pspcontact_hero_ap.png) no-repeat 100% 10px;
+}
