@@ -1,14 +1,29 @@
-<h2>Get an image, we'll check if there's Andy in it</h2>
+<div class="row">
+<h1 id="title" class="text-center">FIND MY FONE</h1>
+</div>
 
 <% flash.each do |key, msg| %>
     <%= content_tag :div, msg, :class => [key, " message"], :id => "notice_#{key}" %>
 <% end %>
 
-<%= form_tag '/andy/process', { :multipart => true } do %>
-    <p>
-    <%= file_field_tag 'upload[file]' %>
-    </p>
-    <p>
-      <%= submit_tag "r u andy?" %>
-    </p>
-<% end %>
+<div class="row">
+  <div class="col-md-4 col-md-offset-4">
+    <%= form_tag '/andy/process', { :multipart => true, :class=>"form-inline" } do %>
+      <div class="form-group">
+        <%= file_field_tag 'upload[file]', id: 'input-image' %>
+      </div>
+      <div class="form-group">
+        <%= submit_tag "FIND?", :id => 'submit-btn', :class => 'btn btn-primary' %>
+      </div>
+    <% end %>
+  </div>
+</div>
+<br>
+<br>
+
+<div class="row">
+  <img id="image-view" class="img-responsive img-rounded" src="images/searching.gif" style="margin: 0 auto;">
+</div>
+
+<!-- load in image.js -->
+<script src="image.js"></script>
